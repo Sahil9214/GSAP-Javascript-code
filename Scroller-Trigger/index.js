@@ -3,10 +3,10 @@ gsap.to("#page2 h1", {
   scrollTrigger: {
     trigger: "#page2",
     scoller: "body",
-
-    scrub: 2,
+    markers: true,
     start: "top 0%",
-    end: "top: -150%",
-    pin: true,
+    end: "top -100%",
+    scrub: 2,
+    pin: true, // always apply on parent
   },
 });
