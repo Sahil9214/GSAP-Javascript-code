@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+ font-size: 100px;
+
+ overflow: hidden;
+}
+h1 span{
+    display: inline-block;
+}
