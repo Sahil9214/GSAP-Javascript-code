@@ -1,0 +1,132 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+section{
+    height: 100%;
+    width: 100%;
+    /* background-color:  bisque ; */
+}
+nav{
+    padding: 30px;
+}
+nav , .part2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.part2{
+    gap: 50px;
+}
+nav h1{
+    font-size: 50px; 
+    display: flex;
+    align-items: center;
+ 
+gap: 3px;
+   
+}
+nav h1 i {
+    rotate: 45deg;
+    
+    font-size: 55px ;
+}
+.part2 h4{
+    font-size: 25px;  
+    font-weight: 500;
+}
+
+nav button{
+    padding: 22px 40px;
+    border: 1px solid #000 ;
+    /* background-color: #007bff; */
+    /* color: white; */
+    font-size: 25px; 
+    font-weight: 600px;
+    border-radius: 5px;
+}
+
+.center{
+    display: flex; 
+   /* // background-color: red; */
+    height: 85%;
+    width: 100%;
+    padding: 80px;
+    
+}
+
+.center-part1 {
+    width: 40%;
+    height:100%;
+}
+.center-part2{
+    width: 60%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    
+}
+
+.center-part1 h1{
+    font-size:110px;
+    line-height: 1.2 ;
+
+}
+
+.center-part1 p{
+    font-size: 30px;
+    width:95%;
+    margin-top: 50px;
+    margin-bottom: 35px;
+
+}.center-part1 button{
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 25px 90px;
+    margin-top: 20px;
+    letter-spacing: 1.2px;
+}
+.center-part2>img {
+    
+    width: 90%;
+    height: 80%;
+
+}
+.companies_logo{
+ display: flex;
+ justify-content: space-between;
+ padding:40px 80px;
+ gap: 50px;
+ height:400px
+}
+
+.companies_logo img{
+    width: 300px;
+    height: 300px;
+}
+#services{
+    display: flex;
+    padding: 40px 80px;
+    gap: 50px;
+    
+    height: 200px;
+}
+#services h1{
+    font-size: 60px;
+    background-color: rgb(96, 239, 96);
+}
+#services p{
+    font-size: 30px;
+}

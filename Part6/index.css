@@ -2,8 +2,8 @@ html , body{
     height: 100%;
     width: 100%;
 }
-body{
-    overflow-x: hidden;
+body{ 
+   overflow-x: hidden;
     
 }
 #main{
