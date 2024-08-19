@@ -106,7 +106,9 @@ const DragandDrop = () => {
           onDragStart={(e) => handleDragStart(e, task.id)}
           onDragEnd={handleDragEnd}
         >
-          <h2>{task.title}</h2>
+          <h2 className="text-white py-4 text-xl font-serif font-medium">
+            {task.title}
+          </h2>
         </div>
       ));
   }
@@ -116,12 +118,12 @@ const DragandDrop = () => {
       <div className="flex flex-row items-center justify-between px-8 py-8">
         <div>
           {" "}
-          <h1 className="text-lg text-white ">Todo</h1>
+          <h1 className="text-lg text-white text-center ">Todo</h1>
           <div
             id="todo"
             onDragOver={handleDragOver}
             onDrop={(e) => handleDrop(e, "todo")}
-            className={`flex flex-col items-center justify-start w-full border-2 border-dashed p-0.5 gap-1 rounded ${
+            className={`flex flex-col items-center justify-start w-[25vw] border-2 border-dashed p-0.5 gap-1 rounded ${
               dropIndicator === "todo" ? "bg-blue-100 " : ""
             }`}
           >
@@ -130,12 +132,12 @@ const DragandDrop = () => {
         </div>
         <div>
           {" "}
-          <h1 className="text-lg text-white ">In-Progress</h1>
+          <h1 className="text-lg text-white text-center ">In-Progress</h1>
           <div
             id="in-progress"
             onDragOver={handleDragOver}
             onDrop={(e) => handleDrop(e, "in-progress")}
-            className={`flex flex-col items-center justify-start w-full border-2 border-dashed p-0.5 gap-1 rounded ${
+            className={`flex flex-col items-center justify-start w-[25vw] border-2 border-dashed p-0.5 gap-1 rounded ${
               dropIndicator === "todo" ? "bg-blue-100 " : ""
             }`}
           >
@@ -144,12 +146,12 @@ const DragandDrop = () => {
         </div>
         <div>
           {" "}
-          <h1 className="text-lg text-white ">Done</h1>
+          <h1 className="text-lg text-white text-center ">Done</h1>
           <div
             id="done"
             onDragOver={handleDragOver}
             onDrop={(e) => handleDrop(e, "done")}
-            className={`flex flex-col items-center justify-start w-full border-2 border-dashed p-0.5 gap-1 rounded ${
+            className={`flex flex-col items-center justify-start w-[25vw] border-2 border-dashed p-0.5 gap-1 rounded ${
               dropIndicator === "todo" ? "bg-blue-100 " : ""
             }`}
           >
